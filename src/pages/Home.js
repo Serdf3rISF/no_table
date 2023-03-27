@@ -6,6 +6,10 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { BrowserRouter, Link } from "react-router-dom";
+import NavBar from "./../components/NavBar";
+import DefTesttable from "./../components/tables/defTesttable";
+
 //////////////////////////////////////
 
 const Home = ({ setAuth }) => {
@@ -29,6 +33,13 @@ const Home = ({ setAuth }) => {
       <Box sx={{ mb: 5, mt: -10 }}>
         <Logo />
       </Box>
+      {/* <BrowserRouter>
+        <div>
+          <NavBar />
+
+        </div>
+      </BrowserRouter> */}
+
       <Typography
         sx={{
           textAlign: "center",
@@ -47,7 +58,7 @@ const Home = ({ setAuth }) => {
       >
         La tua situazione
       </Typography>
-      <div>
+      {/* <div>
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -117,7 +128,7 @@ const Home = ({ setAuth }) => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-      </div>
+      </div> */}
       <div >
         <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary sx={{ mt: 2, bgcolor: 'info.main' }}
@@ -131,10 +142,7 @@ const Home = ({ setAuth }) => {
             <Typography sx={{ color: 'text.secondary' }}>3 Nuovi Annunci</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-              Aliquam eget maximus est, id dignissim quam.
-            </Typography>
+            <DefTesttable />            
           </AccordionDetails>
         </Accordion>
         <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
