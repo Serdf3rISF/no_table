@@ -1,13 +1,13 @@
 <div id="top"></div>
 
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- [![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-A simple sign in and sign up template built with React and Material UI. With complete input validation using formik and yup, making your life easy.
+Un esempio
 
 ![Product Preview][product-preview]
 
@@ -23,14 +23,14 @@ A simple sign in and sign up template built with React and Material UI. With com
 
 ### Prerequisites
 
-- npm
+<!-- - npm
   ```sh
-  npm install npm@latest -g
+  npm install npm@latest -g -->
   ```
 
 ### Installation
 
-_To get started with the project._
+<!-- _To get started with the project._
 
 1. Clone the repo
    ```sh
@@ -43,7 +43,7 @@ _To get started with the project._
 3. Start the application
    ```sh
    npm start
-   ```
+   ``` -->
 
 <!-- CONTACT -->
 
